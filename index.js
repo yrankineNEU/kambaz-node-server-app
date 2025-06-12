@@ -2,7 +2,7 @@ import cors from "cors";
 import "dotenv/config";
 import express from "express";
 import session from "express-session";
-import Hello from "./Hello.js";
+import Hello from "./hello.js";
 import AssignmentRoutes from "./Kambaz/Assignments/routes.js";
 import CourseRoutes from "./Kambaz/Courses/routes.js";
 import ModuleRoutes from "./Kambaz/Modules/routes.js";
